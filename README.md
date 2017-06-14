@@ -24,13 +24,12 @@
                   ￼钥匙串-->系统-->证书----如果显示此证书已过期, 需要重新下载证书
                     苹果根证书下载网址:
                     https://www.apple.com/certificateauthority/
-                    下载 Apple Intermediate Certificates中的WWDR Certificate (Expiring 02/07/23)   点击即可下载
+                    下载 Apple Intermediate Certificates 中的 WWDR Certificate (Expiring 02/07/23)   点击即可下载
                     下载完双击安装
-                  安装完, 再次查看证书, 如果还是显示 "此证书是由未知颁发机构签名的"
+                  安装完, 再次查看证书, 如果还是显示 "此证书是由未知颁发机构签名的" 则还需下载CA-G2证书
+                  下载 Apple Intermediate Certificates 中的 Worldwide Developer Relations - G2 Certificate  点击即可下载
                   
-             e.绑定Merchart ID到App ID
+             e.绑定Merchart ID到App ID
              
         (3).配置Xcode项目, 开启Applepay功能
-        
-        
-        
+            首先要把项目配置成8.0
