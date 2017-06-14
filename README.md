@@ -32,4 +32,7 @@
              e.绑定Merchart ID到App ID
              
         (3).配置Xcode项目, 开启Applepay功能
-            首先要把项目配置成8.0
+            首先配置iOS系统版本最低为8.0
+            其次, target-->Capabilities中打开ApplePay勾选Merchart ID, 配置完成
+            
+    2. 代码实现 ----详见demo
